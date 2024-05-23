@@ -29,11 +29,13 @@ Extract information via both automated browsing with Splinter and HTML parsing w
 
 ## Part 2: Scrape and Analyze Mars Weather Data
 
-1. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. _Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html._
+1. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape.
 
-2. Create a Beautiful Soup object and use it to scrape the data in the HTML table.
+_Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html._
 
-3. Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
+3. Create a Beautiful Soup object and use it to scrape the data in the HTML table.
+
+4. Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
     - id: the identification number of a single transmission from the Curiosity rover
     - terrestrial_date: the date on Earth
@@ -43,9 +45,9 @@ Extract information via both automated browsing with Splinter and HTML parsing w
     - min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
     - pressure: The atmospheric pressure at Curiosity's location
 
-4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
+5. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 
-5. Analyze the dataset by using Pandas functions to answer the following questions:
+6. Analyze the dataset by using Pandas functions to answer the following questions:
 
     - How many months exist on Mars?
     - How many Martian (and not Earth) days worth of data exist in the scraped dataset?
@@ -59,4 +61,4 @@ Extract information via both automated browsing with Splinter and HTML parsing w
       - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
       - Visually estimate the result by plotting the daily minimum temperature.
 
-6. Export the DataFrame to a CSV file.
+7. Export the DataFrame to a CSV file.
