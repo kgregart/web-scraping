@@ -31,7 +31,7 @@ Extract information via both automated browsing with Splinter and HTML parsing w
 
 1. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape.
 
-_Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html._
+  _Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html._
 
 3. Create a Beautiful Soup object and use it to scrape the data in the HTML table.
 
